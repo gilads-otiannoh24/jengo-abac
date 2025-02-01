@@ -1,0 +1,24 @@
+{
+  "name": "jengo/abac",
+  "description": "Abac system for Jengo",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Jengo\\Abac\\": "src/"
+    },
+    "exclude-from-classmap": [
+      "**/Database/Migrations/**"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Gilads Otiannoh"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "codeigniter4/framework": "^4.6",
+    "jengo/core": "dev-master",
+    "craftcamp/php-abac": "^3.0"
+  }
+}
